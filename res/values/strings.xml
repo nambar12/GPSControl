@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GPSControl!</string>
+    <string name="app_name">GPS Control</string>
+
+<string name="NOTIFICATION">NOTIFICATION</string>
+<string name="stop">Stop</string>
+<string name="playback">Playback running</string>
+<string name="record">Recording in progress</string>
+</resources>

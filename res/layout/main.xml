@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+<TextView android:layout_gravity="center_horizontal" android:text="GPS Control" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="match_parent" android:layout_height="wrap_content">
+	<TableRow>
+		<Button android:text="Record" android:id="@+id/ButtonRecord" android:layout_width="match_parent" android:layout_weight="1" android:padding="2dip"></Button>
+		<Button android:text="Play" android:id="@+id/ButtonPlay" android:layout_width="match_parent" android:layout_weight="1" android:padding="2dip"></Button>
+	</TableRow>
+</TableLayout>
+<TableLayout android:id="@+id/TableLayout02" android:layout_width="match_parent" android:layout_height="wrap_content">
+	<TableRow>
+		<TextView android:text="Langtitude: " android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="" android:id="@+id/LangText" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Longtitude: " android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="" android:id="@+id/LongText" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Alttitude: " android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="" android:id="@+id/AltText" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Speed: " android:id="@+id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="" android:id="@+id/SpeedText" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Accuracy: " android:id="@+id/TextView07" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="" android:id="@+id/AccuracyText" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Bearing: " android:id="@+id/TextView08" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="" android:id="@+id/BearingText" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Time: " android:id="@+id/TextView09" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="" android:id="@+id/TimeText" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Status: " android:id="@+id/TextViewStateTag" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="" android:id="@+id/StateText" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Provider: " android:id="@+id/TextViewProviderTag" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="" android:id="@+id/ProviderText" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</TableRow>
+</TableLayout>
+</LinearLayout>
